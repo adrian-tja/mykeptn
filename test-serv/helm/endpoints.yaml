@@ -1,2 +1,2 @@
 deploymentURIsLocal:
-  - "http://helloservice.test-proj-qa:80" 
+  - "http://test-serv.test-proj-qa:80" 
