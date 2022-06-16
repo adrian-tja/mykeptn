@@ -15,17 +15,7 @@ spec:
           properties:
             teststrategy: "performance"
         - name: "evaluation"
-
-    - name: "production"
-      sequences:
-      - name: "delivery"
-          triggeredOn:
-          -event: "qa-delivery-finished"
-        tasks:
         - name: "approval"
           properties:
             pass: "automatic"
             warning: "manual"
-        - name: "deployment"
-         
-      
