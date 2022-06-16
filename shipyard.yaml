@@ -19,8 +19,8 @@ spec:
     - name: "production"
       sequences:
       - name: "delivery"
-        triggeredOn:
-        -event: "qa-delivery-finished"
+          triggeredOn:
+          -event: "qa-delivery-finished"
         tasks:
         - name: "approval"
           properties:
