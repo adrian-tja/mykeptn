@@ -20,7 +20,7 @@ spec:
       sequences:
       - name: "delivery"
         triggeredOn:
-          -event: qa-delivery-finished
+        -event: qa-delivery-finished
         tasks:
         - name: "approval"
           properties:
