@@ -19,3 +19,6 @@ spec:
           properties:
             pass: "automatic"
             warning: "manual"
+        - name: "deployment"
+          properties:
+            deploymentstrategy: "user_managed"
